@@ -11,33 +11,33 @@ int main() {
 
     Chat ch1;
 
-    cout << "Ğåãèñòğàöèÿ: ââåäèòå ëîãèí: ";
+    cout << "Ğ ĞµĞ³Ğ¸ÑÑ‚Ñ€Ğ°Ñ†Ğ¸Ñ: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ»Ğ¾Ğ³Ğ¸Ğ½: ";
     cin >> _login;
-    cout << endl << "Ğåãèñòğàöèÿ: ââåäèòå ïàğîëü: ";
+    cout << endl << "Ğ ĞµĞ³Ğ¸ÑÑ‚Ñ€Ğ°Ñ†Ğ¸Ñ: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¿Ğ°Ñ€Ğ¾Ğ»ÑŒ: ";
     cin >> _pass;
     pass_length = strlen(_pass);
-    cout << "Ğåãèñòğàöèÿ: ââåäåíû ëîãèí: " << _login << "   ïàğîëü: " << _pass << "   äëèíîé: " << pass_length << endl;
+    cout << "Ğ ĞµĞ³Ğ¸ÑÑ‚Ñ€Ğ°Ñ†Ğ¸Ñ: Ğ²Ğ²ĞµĞ´ĞµĞ½Ñ‹ Ğ»Ğ¾Ğ³Ğ¸Ğ½: " << _login << "   Ğ¿Ğ°Ñ€Ğ¾Ğ»ÑŒ: " << _pass << "   Ğ´Ğ»Ğ¸Ğ½Ğ¾Ğ¹: " << pass_length << endl;
 
     ch1.reg(_login, _pass, pass_length);
 
-    cout << "Ğåãèñòğàöèÿ: ââåäèòå ëîãèí: ";
+    cout << "Ğ ĞµĞ³Ğ¸ÑÑ‚Ñ€Ğ°Ñ†Ğ¸Ñ: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ»Ğ¾Ğ³Ğ¸Ğ½: ";
     cin >> _login;
-    cout << endl << "Ğåãèñòğàöèÿ: ââåäèòå ïàğîëü: ";
+    cout << endl << "Ğ ĞµĞ³Ğ¸ÑÑ‚Ñ€Ğ°Ñ†Ğ¸Ñ: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¿Ğ°Ñ€Ğ¾Ğ»ÑŒ: ";
     cin >> _pass;
     pass_length = strlen(_pass);
-    cout << "Ğåãèñòğàöèÿ: ââåäåíû ëîãèí: " << _login << "   ïàğîëü: " << _pass << "   äëèíîé: " << pass_length << endl;
+    cout << "Ğ ĞµĞ³Ğ¸ÑÑ‚Ñ€Ğ°Ñ†Ğ¸Ñ: Ğ²Ğ²ĞµĞ´ĞµĞ½Ñ‹ Ğ»Ğ¾Ğ³Ğ¸Ğ½: " << _login << "   Ğ¿Ğ°Ñ€Ğ¾Ğ»ÑŒ: " << _pass << "   Ğ´Ğ»Ğ¸Ğ½Ğ¾Ğ¹: " << pass_length << endl;
 
     ch1.reg(_login, _pass, pass_length);
 
     for (int i = 0; i < 10; i++)
-        cout << "ëîãèí: " << ch1.data[i].login << "   ïàğîëü: " << ch1.data[i].pass_sha1_hash << endl;
+        cout << "Ğ»Ğ¾Ğ³Ğ¸Ğ½: " << ch1.data[i].login << "   Ğ¿Ğ°Ñ€Ğ¾Ğ»ÑŒ: " << ch1.data[i].pass_sha1_hash << endl;
 
-    cout << "Àâòîğèçàöèÿ: ââåäèòå ëîãèí: ";
+    cout << "ĞĞ²Ñ‚Ğ¾Ñ€Ğ¸Ğ·Ğ°Ñ†Ğ¸Ñ: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ»Ğ¾Ğ³Ğ¸Ğ½: ";
     cin >> _login;
-    cout << endl << "Àâòîğèçàöèÿ: ââåäèòå ïàğîëü: ";
+    cout << endl << "ĞĞ²Ñ‚Ğ¾Ñ€Ğ¸Ğ·Ğ°Ñ†Ğ¸Ñ: Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ¿Ğ°Ñ€Ğ¾Ğ»ÑŒ: ";
     cin >> _pass;
     pass_length = strlen(_pass);
-    cout << "Àâòîğèçàöèÿ: ââåäåíû ëîãèí: " << _login << "   ïàğîëü: " << _pass << "   äëèíîé: " << pass_length << endl;
+    cout << "ĞĞ²Ñ‚Ğ¾Ñ€Ğ¸Ğ·Ğ°Ñ†Ğ¸Ñ: Ğ²Ğ²ĞµĞ´ĞµĞ½Ñ‹ Ğ»Ğ¾Ğ³Ğ¸Ğ½: " << _login << "   Ğ¿Ğ°Ñ€Ğ¾Ğ»ÑŒ: " << _pass << "   Ğ´Ğ»Ğ¸Ğ½Ğ¾Ğ¹: " << pass_length << endl;
 
     if (ch1.login(_login, _pass, pass_length)) cout << "OK" << endl;
     if (!ch1.login(_login, _pass, pass_length)) cout << "No" << endl;
